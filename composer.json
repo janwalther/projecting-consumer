@@ -1,0 +1,15 @@
+{
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "require": {
+    "php": "^7.0",
+    "php-amqplib/php-amqplib": "*",
+    "webmozart/assert": "*",
+    "broadway/broadway": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "finance\\Projector\\": "src/"
+    }
+  }
+}
